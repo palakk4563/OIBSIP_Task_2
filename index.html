@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Palak Kumari - Web Developer and Design Enthusiast</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="index.js" />
+    <script
+      src="https://kit.fontawesome.com/088f64561a.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav id="navbar">
+          <img src="images/icon1.png" alt="" class="logo" />
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#portfolio">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </nav>
+        <div class="header-text">
+          <h1>
+            Hi, I'm
+            <span>PALAK</span><br />
+          </h1>
+          <p>Web Developer and Programmer</p>
+        </div>
+      </div>
+      <div class="social-icons">
+        <a href="https://www.hackerrank.com/profile/Palak632019"
+          ><i class="fa-brands fa-hackerrank"></i
+        ></a>
+        <a href="https://www.linkedin.com/in/palak-kumari-0517a3222/"
+          ><i class="fa-brands fa-linkedin"></i
+        ></a>
+        <a href="https://github.com/palakk4563"
+          ><i class="fa-brands fa-square-github"></i
+        ></a>
+      </div>
+    </div>
+    <!-- ---------------about--------------- -->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="images/me.webp" alt="" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">ABOUT ME</h1>
+            <p>
+              Efficient Computer Science & Engineering Major recently graduated in August 2023. A skilled Web
+              Developer with knowledge in programming languages, DBMS and artificial intelligence, aiming to
+              leverage my communication, teamwork, and problem - solving skills
+              to successfully fill the organization’s requirement and grow
+              professionally.
+            </p>
+
+            <div class="tab-titiles">
+              <p class="tab-links active-link" onclick="openTab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="openTab('experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="openTab('education')">Education</p>
+            </div>
+
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li>
+                  <span>Front-End Developer</span><br />Web Development and
+                  designing
+                </li>
+                <li>
+                  <span>Programming</span><br />C, &nbspPyhton, &nbspJava,
+                  &nbspC++
+                </li>
+                <li><span>Database Management</span><br />MySQl</li>
+              </ul>
+            </div>
+
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li>
+                  <span>LetsGrowMore</span><br />Web Development ( January 2024
+                  )
+                </li>
+                <li>
+                  <span>Oasis Infobyte</span><br />Web Development & Design (
+                  January 2024 )
+                </li>
+                <li>
+                  <span>LearnFlow</span><br />Web Development- ( January 2024 -
+                  Present )
+                </li>
+              </ul>
+            </div>
+
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span>2019-2023</span><br />Computer Science & Engineering,
+                  B.Tech
+                </li>
+                <li>
+                  <span>2018</span><br />Physics, Chemistry, Maths -
+                  Intermediate
+                </li>
+                <li><span>2016</span><br />Science - High School</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ----------------Experience----------------- -->
+    <div id="experience">
+      <div class="container">
+        <h1 class="sub-title">Experience</h1>
+        <div class="row-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Development Internship</h2>
+            <p>
+             One month Internship under LetsGrowMore January 2024 Batch. Successfully completed four tasks from beginner to intermediate level using HTML, CSS, JavaScript, ReactJS.  
+            </p>
+            <a href="https://www.linkedin.com/pulse/internship-experience-letsgrowmore-palak-kumari-fbkbc">Learn More</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Development and Design Internship</h2>
+            <p>
+             One month Internship under Oasis Infobyte January batch. Successfully completed tasks from beginner to intermediate level using HTML, CSS, JavaScript.
+            </p>
+            <a href="">Learn More</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Development Internship</h2>
+            <p>
+              Three month Internship under LearnFlow starting from 1 January 2024 - present date.
+            </p>
+            <a href="">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- -------------potfolio---------------- -->
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="images/todo2.jpg" alt="" srcset="" />
+            <div class="layer">
+              <h3>To-Do List Web App</h3>
+              <p>A simple To-Do List Web App using HTML, CSS, Javascript</p>
+              <a href="https://palakk4563.github.io/LGMVIP-Web-Task-1/"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+
+          <div class="work">
+            <img src="images/form.png" alt="" srcset="" />
+            <div class="layer">
+              <h3>Student Registration Form</h3>
+              <p>
+                An online Registration form that displays the registered
+                students data on same page. This project is build using HTML,
+                CSS, Javascript
+              </p>
+              <a href="https://palakk4563.github.io/LGMVIP-Web-Task-3/"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+
+          <div class="work">
+            <img src="images/calc.png" alt="" srcset="" />
+            <div class="layer">
+              <h3>Calculator</h3>
+              <p>A simple calculator build using HTML, CSS, Javascipt.</p>
+              <a href="https://palakk4563.github.io/LGMVIP-Web-Task-4/"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <a href="https://github.com/palakk4563" class="btn"> See more</a>
+      </div>
+    </div>
+    <!-- -------------------------------contact------------------- -->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fa-regular fa-envelope"></i>palakk4563126@gmail.com</p>
+            <p><i class="fa-solid fa-square-phone-flip"></i>7266853551</p>
+            <div class="social-icons">
+              <a href="https://www.hackerrank.com/profile/Palak632019"
+                ><i class="fa-brands fa-hackerrank"></i
+              ></a>
+              <a href="https://www.linkedin.com/in/palak-kumari-0517a3222/"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+              <a href="https://github.com/palakk4563"
+                ><i class="fa-brands fa-square-github"></i
+              ></a>
+            </div>
+            <a href="images/Palak_Resumee.pdf" download class="btn btn-2"
+              >Download CV</a
+            >
+          </div>
+
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="Email"
+                placeholder=" Your Email"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Your message"
+                required
+              ></textarea>
+              <button type="submit" class="btn btn-2">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        <p>Made by Palak Kumari</p>
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+    <script></script>
+  </body>
+</html>

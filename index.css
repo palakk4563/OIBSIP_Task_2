@@ -25,6 +25,7 @@ body{
     background-size: cover;
     background-position: center ;
     margin-bottom: 50px;
+    position: relative;
 }
 .container{
     /* border: 5px solid yellow; */
@@ -79,9 +80,7 @@ nav ul li a:hover::after{
     width:100%; 
 }
 .header-text{
-    margin-top:250px; 
-    margin-bottom: 100px;
-    margin-left: 100px;
+    margin-top:250px;
     display: block;
     align-items: center;
     justify-content:center;
@@ -127,7 +126,6 @@ opacity: 0;
 }
 
 nav.sticky {
-    padding: 5px 100px;
     background-color: black;
 }
 
@@ -136,14 +134,9 @@ nav.sticky {
     /* border: 5px solid #0f8919; */
     padding: 80px;
     color: #ababab;
-    /* transform: rotate(5deg); */
     box-shadow: 10px 20px 30px rgba(68, 65, 65, 0.698);
-    margin: 10px 100px;
-    /* transition: 1s; */
+    margin: 10px;
 }
-/* #about:hover{
-    transform: skewY(0deg);
-} */
 
 .row{
     /* border:5px solid #0f8919; */
@@ -153,7 +146,7 @@ nav.sticky {
 }
 .about-col-1{
     /* border: 1px solid #ff004f; */
-    border-radius: 25%;
+    max-width: 400px;
     flex-basis: 35%; /* width of the column*/
 }
 .about-col-1 img{
@@ -166,6 +159,9 @@ nav.sticky {
 .about-col-2{
     /* border: 5px solid #0f8919; */
     flex-basis: 60%;
+}
+.about-col-2 p{
+    margin: 10px;
 }
 .sub-title{
     font-size: 60px;
@@ -405,3 +401,22 @@ form .btn-2{
     font-weight: 300;
     margin-top: 20px;
 }
+/* .......................................css for small screen.................. */
+@media only screen and (max-width: 600px){
+    nav{
+        padding: 0px;
+    }
+    nav ul{
+        visibility: hidden;
+    }
+   
+   .header-text h1{
+     font-size: 30px;
+     }
+    .header-text h1 span {
+        font-size: 50px;
+     }
+     .header-text p{
+        font-size: 30px;
+     }
+   }

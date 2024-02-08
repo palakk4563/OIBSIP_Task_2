@@ -44,8 +44,9 @@ nav{
     padding: 10px 100px;
     z-index: 100000;
 }
-.logo{
-    max-width: 140 px;    
+.logo {
+    /* border: 1px solid red; */
+    max-width: 500px;    
 }
 
 nav ul{
@@ -125,7 +126,7 @@ nav.sticky {
     background-color: black;
 }
 
-.social-icons{
+#icons-position{
     position: absolute;
     left: 0;
     bottom:5%;
@@ -146,7 +147,7 @@ nav.sticky {
     justify-content: space-between;
 }
 .about-col-1{
-    /* border: 1px solid #ff004f; */
+    border: 1px solid #ff004f;
     max-width: 400px;
     flex-basis: 35%; /* width of the column*/
 }
@@ -258,7 +259,7 @@ padding: 30px 0px;
 #portfolio{
     padding: 50px 0px;
     box-shadow: 10px 20px 30px rgba(68, 65, 65, 0.698);
-    margin: 10px 30px 100px;
+    margin: 10px 20px 100px;
     
 }
 
@@ -421,4 +422,15 @@ form .btn-2{
         font-size: 30px;
         margin-left: 50px;
      }
+     #about{
+        margin:0px;
+        box-shadow: none;
+     }
+     #portfolio{
+        /* padding: 50px 0px; */
+        box-shadow: none;
+        margin: 10px 0px 100px;
+        
+    }
+    
    }

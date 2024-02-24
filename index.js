@@ -16,7 +16,7 @@ function openTab(tabname){
 
 // ------------------Contact-------------
 const scriptURL =
-        "https://script.google.com/macros/s/AKfycbyPfpFgIUWE9-E99XJOJD8Yw1mavnK2U8CZFNi3-HqK-32_WWPbF6lLcfrsAS5geZML/exec";
+        ""; //add google sheet "contact form" script url
       const form = document.forms["submit-to-google-sheet"];
     const msg = document.getElementById("msg");
 

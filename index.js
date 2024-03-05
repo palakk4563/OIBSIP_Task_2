@@ -14,9 +14,9 @@ function openTab(tabname){
 }
 // -----------------------------------------------------
 
-// ------------------Contact-------------
+// ------------------Contact-------------( My personal google sheet url is currently removed )
 const scriptURL =
-        ""; //add google sheet "contact form" script url
+        ""; //add google sheet "contact form" script url 
       const form = document.forms["submit-to-google-sheet"];
     const msg = document.getElementById("msg");
 
